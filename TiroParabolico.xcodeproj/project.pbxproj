@@ -21,6 +21,8 @@
 		5964FACC182CD9AE00E8C312 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5964FAAE182CD9AE00E8C312 /* UIKit.framework */; };
 		5964FAD4182CD9AE00E8C312 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5964FAD2182CD9AE00E8C312 /* InfoPlist.strings */; };
 		5964FAD6182CD9AE00E8C312 /* TiroParabolicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964FAD5182CD9AE00E8C312 /* TiroParabolicoTests.m */; };
+		5964FAE1182CDD9F00E8C312 /* ParabolicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964FAE0182CDD9F00E8C312 /* ParabolicView.m */; };
+		5964FAE4182CDF6F00E8C312 /* ParabolicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964FAE3182CDF6F00E8C312 /* ParabolicModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		5964FAD1182CD9AE00E8C312 /* TiroParabolicoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TiroParabolicoTests-Info.plist"; sourceTree = "<group>"; };
 		5964FAD3182CD9AE00E8C312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5964FAD5182CD9AE00E8C312 /* TiroParabolicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiroParabolicoTests.m; sourceTree = "<group>"; };
+		5964FADF182CDD9F00E8C312 /* ParabolicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParabolicView.h; sourceTree = "<group>"; };
+		5964FAE0182CDD9F00E8C312 /* ParabolicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParabolicView.m; sourceTree = "<group>"; };
+		5964FAE2182CDF6F00E8C312 /* ParabolicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParabolicModel.h; sourceTree = "<group>"; };
+		5964FAE3182CDF6F00E8C312 /* ParabolicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParabolicModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +123,12 @@
 				5964FABC182CD9AE00E8C312 /* Main.storyboard */,
 				5964FABF182CD9AE00E8C312 /* TPViewController.h */,
 				5964FAC0182CD9AE00E8C312 /* TPViewController.m */,
+				5964FADF182CDD9F00E8C312 /* ParabolicView.h */,
+				5964FAE0182CDD9F00E8C312 /* ParabolicView.m */,
 				5964FAC2182CD9AE00E8C312 /* Images.xcassets */,
 				5964FAB1182CD9AE00E8C312 /* Supporting Files */,
+				5964FAE2182CDF6F00E8C312 /* ParabolicModel.h */,
+				5964FAE3182CDF6F00E8C312 /* ParabolicModel.m */,
 			);
 			path = TiroParabolico;
 			sourceTree = "<group>";
@@ -251,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5964FAC1182CD9AE00E8C312 /* TPViewController.m in Sources */,
+				5964FAE4182CDF6F00E8C312 /* ParabolicModel.m in Sources */,
 				5964FABB182CD9AE00E8C312 /* TPAppDelegate.m in Sources */,
+				5964FAE1182CDD9F00E8C312 /* ParabolicView.m in Sources */,
 				5964FAB7182CD9AE00E8C312 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +473,7 @@
 				5964FADB182CD9AE00E8C312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5964FADC182CD9AE00E8C312 /* Build configuration list for PBXNativeTarget "TiroParabolicoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				5964FADE182CD9AE00E8C312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
